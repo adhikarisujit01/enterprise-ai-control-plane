@@ -6,6 +6,8 @@ This independent portfolio prototype explores a problem that appears once AI mov
 
 The application combines an executive AI portfolio with a technical control-plane view so strategy, operating model, permissions, governance, and implementation can be discussed in one place.
 
+**Live demo:** https://enterprise-ai-control-plane-d5m5j3wpqvh9e8vbukpck3.streamlit.app/
+
 > **Status:** V4 portfolio prototype · synthetic data only · not affiliated with or endorsed by BCG, BCG Platinion, Deloitte, or any client organization.
 
 ## Executive problem
@@ -272,14 +274,11 @@ streamlit run app.py
 python -m pytest -q
 ```
 
-## Deployment
+## Live deployment
 
-The application is designed for Streamlit Community Cloud. After pushing the repository to GitHub:
+The current public Streamlit deployment is available here:
 
-1. Open Streamlit Community Cloud.
-2. Select the repository.
-3. Set the entry point to `app.py`.
-4. Deploy.
+https://enterprise-ai-control-plane-d5m5j3wpqvh9e8vbukpck3.streamlit.app/
 
 No secrets or external API credentials are required for the current version.
 
